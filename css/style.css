@@ -1,0 +1,662 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container{
+	height: 100%;
+}
+.swiper-slide{
+	/*display: none;*/
+}
+.slide10{
+	display: block;
+}
+
+/*Slide1*/
+.slide1 .container{
+	height: 100%;
+	background: url(../images/pic4.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide1 .logo{
+    height: 0.6rem;
+    width: 1.68rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.1rem;
+}
+.logo img{
+	width: 1.68rem;
+	height: 0.6rem;
+}
+.cycle,.ke{
+	position: absolute;
+	width: 6.06rem;
+	height: 6.58rem;
+	top: 0.35rem;
+	left: 0.2rem;
+}
+.cycle img,.ke img{
+	width: 6.06rem;
+	height: 6.58rem;
+}
+.cycleRotate{
+	position: absolute;
+	left: 1.4rem;
+	top: 1.8rem;
+	animation: rotate 2s linear infinite;
+}
+.cycleRotate img{
+	width: 3.6rem;
+	height: 3.6rem;
+}
+.cycleLeft{
+	position: absolute;
+	left: 0.2rem;
+	top: 0.38rem;
+}
+.cycleLeft img{
+	width: 6.06rem;
+	height: 6.58rem;
+}
+.cycleRight{
+	position: absolute;
+	left: 0.38rem;
+	top: 0.2rem;
+}
+.cycleRight img{
+	width: 6.06rem;
+	height: 6.58rem;
+}
+.car{
+	width: 6.4rem;
+	height: 5.25rem;
+	position: absolute;
+	bottom: 0;
+}
+.car img{
+	width: 6.4rem;
+	height: 5.25rem;
+}
+
+
+/*Slide2*/
+.slide2 .container{
+	height: 100%;
+	background: url(../images/twoback.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.slide2 h2{
+	position: absolute;
+	top: 2.06rem;
+	left: 1.42rem;
+}
+.slide2 h2 img{
+	width: 3.5rem;
+	height: 1.72rem;
+}
+.slide2 .car2{
+	position: absolute;
+	bottom: 1rem;
+    left: 0.3rem;
+}
+.slide2 .car2 img{
+	width: 6.02rem;
+	height: 3.64rem;
+}
+
+
+/*Slide3*/
+.slide3 .container{
+	height: 100%;
+	background: url(../images/twopic2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	/*z-index: -2;*/
+}
+.slide3 .cycle2{
+	position: absolute;
+    left: 0.35rem;
+	top: 0.57rem;
+}
+.cycle2 img{
+	width: 2.33rem;
+	height: 2.33rem;
+}
+.slide3 .feature{
+	position: absolute;
+	left: 0.48rem;
+	top: 0.72rem;
+}
+.feature img{
+	width: 2.13rem;
+	height: 2.13rem;
+}
+.cycleRotate1{
+	position: absolute;
+	left: 0.45rem;
+	top: 0.69rem;
+	animation: rotate 2s 0s linear infinite normal;
+	animation-fill-mode: forwards;
+}
+.cycleRotate1 img{
+	width: 2.16rem;
+	height: 2.16rem;
+}
+.face{
+	position: absolute;
+	left: 2.82rem;
+	top: 1.2rem;
+}
+.light{
+	position: absolute;
+	left: 2.1rem;
+	top: 2.2rem;
+	text-align: right;
+}
+.sheel{
+	position: absolute;
+	left: 1rem;
+	top: 3.2rem;
+}
+.font{
+	width: 2.65rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.48rem;
+	font-family: "微软雅黑";
+	border-bottom: 1px solid #000;
+	z-index: 1;
+}
+.car1{
+	width: 15.76rem;
+	height: 9.53rem;
+	position: absolute;
+	left: -2.65rem;
+	top: 3.4rem;
+	background: url(../images/bigcar.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	/*z-index: 0;*/
+}
+.car1 img{
+	width: 15.76rem;
+	height: 9.53rem;
+}
+.bigcarlight{
+	display: none;
+	position: absolute;
+	left: 2rem;
+	top: 4rem;
+}
+.bigcarlight img{
+	width: 3.45rem;
+	height: 4.52rem;
+}
+.hand{
+	position: absolute;
+	left: 3.7rem;
+	top: 1.7rem;
+	animation: hand 1.5s 0s linear infinite normal;
+}
+.hand img{
+	width: 0.78rem;
+	height: 0.8rem;
+}
+
+
+/*Slide4*/
+.slide4 .container{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+}
+.slide4 h2{
+	text-align: center;
+	color: #fff;
+	font-size: 0.4rem;
+	font-weight: normal;
+	margin-top: 0.2rem;
+}
+#main{
+	width: 6.4rem;
+	height: 4.8rem;
+	position: absolute;
+	top: 1rem;
+	overflow: hidden;
+}
+#main img{
+	display: none;
+	width: 6.4rem;
+	height: 4.8rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#main img:nth-child(1){
+	display: block;
+}
+.quan{
+	width: 0.7rem;
+	height: 0.73rem;
+	position: absolute;
+	left: 1.8rem;
+	top: 5.5rem;
+}
+.quan img{
+	width: 0.7rem;
+	height: 0.73rem;
+}
+.jia{
+	width: 0.85rem;
+	height: 0.85rem;
+	position: absolute;
+	left: 3rem;
+	top: 5.5rem;
+}
+.jian{
+	width: 0.85rem;
+	height: 0.85rem;
+	position: absolute;
+	left: 4.2rem;
+	top: 5.5rem;
+}
+.jia img,.jian img{
+	width: 0.85rem;
+	height: 0.85rem;
+}
+
+/*Slide5*/
+.slide5 .container,.slide6 .container{
+	background: url(../images/threepic1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.slide5 .sun{
+	position: absolute;
+	top: -1.1rem;
+	left: -0.5rem;
+}
+.sun img{
+	width: 6.97rem;
+	height: 100%;
+}
+.car5{
+	height: 5.92rem;
+	position: absolute;
+	bottom: 0;
+}
+.car5 img{
+	width: 6.4rem;
+	height: 5.92rem;
+}
+.airTitle{
+	width: 3.65rem;
+	height: 0.56rem;
+	position: absolute;
+	top: 1rem;
+	left: 0.5rem;
+}
+.airTitle img{
+	width: 3.65rem;
+	height: 0.56rem;
+}
+.airText{
+	width: 5.39rem;
+	height: 1.35rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 0.56rem;
+}
+.airText img{
+	width: 5.39rem;
+	height: 1.35rem;
+}
+.hand5{
+	top: 2.0rem;
+    left: 3.5rem;
+    position: absolute;
+    width: 0.78rem;
+    height: 0.8rem;
+    animation: hand 1.5s 0s linear infinite normal;
+}
+.hand5 img{
+    width: 0.78rem;
+    height: 0.8rem;
+}
+.detail1{
+	width: 5.53rem;
+	height: 3.25rem;
+	position: absolute;
+	top: 1rem;
+	left: 0.4rem;
+	display: none;
+}
+.detail1 img{
+	width: 5.53rem;
+	height: 3.25rem;
+}
+.detail2{
+	width: 6.2rem;
+	height: 4.59rem;
+	position: absolute;
+	bottom: 1rem;
+	left: 0.1rem;
+	display: none;
+}
+.detail2 img{
+	width: 6.2rem;
+	height: 4.59rem;
+}
+.detail3{
+	width: 6.58rem;
+	height: 3.62rem;
+	position: absolute;
+	top: 1rem;
+	display: none;
+}
+.detail3 img{
+	width: 6.58rem;
+	height: 3.62rem;
+}
+.detail4{
+    width: 4.89rem;
+	height: 3.56rem;
+	position: absolute;
+	bottom: 1rem;
+	left: 0.8rem;
+	display: none;
+}
+.detail4 img{
+	width: 4.89rem;
+	height: 3.56rem;
+}
+/*Slide6*/
+.click{
+	z-index: 10;
+	width: 2.05rem;
+	height: 2.05rem;
+	position: absolute;
+	left: 2rem;
+	top: 3rem;
+	animation: rotate 1.5s 0s linear infinite normal;
+}
+.click img{
+	width: 2.05rem;
+	height: 2.05rem;
+}
+.cliFont{
+	z-index: 10;
+	width: 2.05rem;
+	height: 2.05rem;
+	text-align: center;
+	line-height: 2.05rem;
+	color: #000;
+	font-size: 0.38rem;
+	position: absolute;
+	left: 2rem;
+	top: 3rem;
+	animation: font 1.5s 0s linear infinite normal;
+}
+.black{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+/*Slide7*/
+.slide7 .container{
+	height: 100%;
+	position: relative;
+	background-color: #000;
+}
+.car7{
+	width: 6.4rem;
+	height: 8.5rem;
+	position: absolute;
+}
+.car7 img{
+	width: 6.4rem;
+	height: 8.5rem;
+}
+.sound{
+	width: 4.47rem;
+	height: 2.1rem;
+	position: absolute;
+	bottom: 0.75rem;
+}
+.sound img{
+	width: 4.47rem;
+	height: 2.1rem;
+}
+.hand7{
+	position: absolute;
+    width: 0.78rem;
+    height: 0.8rem;
+    animation: hand7 1.5s 0s linear infinite normal;
+    left: 3rem;
+    bottom: 1rem;
+}
+.hand7 img{
+	width: 0.78rem;
+    height: 0.8rem;
+}
+
+/*Slide8*/
+.slide8 .container{
+	height: 100%;
+	background: url(../images/sixpic1s.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.glass{
+	width: 6.68rem;
+	height: 7.36rem;
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+}
+.glass img{
+	width: 6.68rem;
+	height: 7.36rem;
+}
+.detail5{
+    width: 6.41rem;
+    height: 4.35rem;
+    position: absolute;
+}
+.detail5 img{
+	width: 6.41rem;
+    height: 4.35rem;
+}
+.detail6{
+	width: 5.58rem;
+	height: 3rem;
+	position: absolute;
+	top: 4.35rem;
+	z-index: 2;
+}
+.detail6 img{
+	width: 5.58rem;
+	height: 3rem;
+}
+.detail7{
+	width: 6.4rem;
+	height: 3.7rem;
+	position: absolute;
+	top: 6.35rem;
+}
+.detail7 img{
+	width: 6.4rem;
+	height: 3.7rem;
+}
+
+/*Slide9*/
+.slide9 .container{
+	background-color: #000;
+	height: 100%;
+	position: relative;
+}
+.pic91{
+    width: 6.44rem;
+	height: 3.78rem;
+	position: absolute;
+}
+.pic91 img{
+	width: 6.44rem;
+	height: 3.78rem;
+}
+.pic92{
+	width: 6.4rem;
+	height: 3.68rem;
+	position: absolute;
+	top: 3.78rem;
+}
+.pic92 img{
+	width: 6.4rem;
+	height: 3.68rem;
+}
+.pic93{
+	width: 6.4rem;
+	height: 3.98rem;
+	position: absolute;
+	bottom: 0;
+}
+.pic93 img{
+	width: 6.4rem;
+	height: 3.98rem;
+}
+/*Slide10*/
+.slide10 .container{
+	height: 100%;
+	background: url(../images/eightbc.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	position: relative;
+}
+.slide10 h2{
+	font-size: 0.48rem;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 2rem;
+}
+.slide10 label{
+    font-size: 0.24rem;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.46rem;
+    line-height: 0.5rem;
+    left: 0.2rem;
+    font-family: "Microsoft YaHe";
+}
+.slide10 .input{
+	position: absolute;
+	left: 1rem;
+	height: 0.5rem;
+}
+.slide10 .input:first-child{
+	top: 3rem;
+}
+.input input{
+	position: absolute;
+	height: 0.46rem;
+	outline: none;
+    width: 3.44rem;
+    left: 0.9rem;
+    border: 1px solid #a5aeb7;
+    background: #c7ddef;
+}
+.slide10 .input:nth-child(2){
+	top: 3.7rem;
+}
+.slide10 .input:nth-child(3){
+	top: 4.4rem;
+}
+.slide10 button{
+	width: 3.44rem;
+	height: 0.56rem;
+	background-color: #ff6600;
+	color: #fff;
+	font-size: 0.36rem;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 1.85rem;
+	top: 5.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate{
+	0%{-webkit-transform:rotate(0deg);}
+	100%{-webkit-transform:rotate(360deg);}
+}
+@keyframes arr{
+	0%{bottom:0.75rem;}
+	100%{bottom:0.87rem;}
+}
+@keyframes hand{
+	0%{left: 3.7rem;top: 1.7rem;}
+	100%{left: 3.5rem;top: 1.1rem;}
+}
+@keyframes hand7{
+	0%{left: 3rem;bottom: 1rem;}
+	100%{left: 2.4rem;bottom: 1.3rem;}
+}
+@keyframes font{
+	0%{font-size: 0.38rem;}
+    100%{font-size: 0.7rem;}
+}
+
+
+
+
+.arr{
+	width: 0.52rem;
+	height: 0.44rem;
+	position: absolute;
+	bottom: 0.75rem;
+	left: 2.94rem;
+	z-index: 100;
+    animation:arr 1s linear infinite;
+}
+.arr img{
+	width: 0.52rem;
+	height: 0.44rem;
+	display: block;
+}
+.music{
+    width: 0.7rem;
+	height: 0.9rem;
+	position: absolute;
+	right: 0.2rem;
+	bottom: 4.5rem;
+	animation: rotate 1.5s 0s linear infinite normal;
+}
+.music img{
+	width: 0.7rem;
+	height: 0.9rem;
+}
